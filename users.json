@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "payload": [
+    {
+      "id": 9999,
+      "name": "太郎田中",
+      "email": "tarokun@gmail.com",
+      "createdAt": "2021/01/12 23:56:02",
+    },
+    {
+      "id": 8888,
+      "name": "John Snow",
+      "email": "johnathan@gmail.com",
+      "createdAt": "2021/01/12 23:56:00",
+    }
+  ]
+}

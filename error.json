@@ -1,0 +1,8 @@
+
+{
+  "success": false,
+  "payload": {
+    "code": "E0123",
+    "message": "You can not delete this object due to the limitation of your authorities"
+  }
+}

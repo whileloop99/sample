@@ -6,14 +6,44 @@
         "id": 9999,
         "name": "太郎田中",
         "email": "tarokun@gmail.com",
-        "createdAt": "2021/01/12 23:56:02",
+        "createdAt": "2021/01/12 23:56:02"
       },
       {
         "id": 8888,
         "name": "John Snow",
         "email": "johnathan@gmail.com",
-        "createdAt": "2021/01/12 23:56:00",
+        "createdAt": "2021/01/12 23:56:00"
       }
     ]
+  },
+  "user": {
+    "success": true,
+    "payload": {
+        "id": 9999,
+        "name": "太郎田中",
+        "email": "tarokun@gmail.com",
+        "createdAt": "2021/01/12 23:56:02"
+      }
+  },
+  "me": {
+    "success": true,
+    "payload": {
+      "id": "9981",
+      "name": "ディンベトハ"
+    }
+  },
+  "token": {
+    "success": true,
+    "payload": {
+      "accessToken": "this_is_very_secured_hashed_token",
+      "refreshToken": "this_is_very_secured_hashed_token_that_you_should_not_tell_anyone"
+    }
+  },
+  "error": {
+    "success": false,
+    "payload": {
+      "code": "E0123",
+      "message": "You can not delete this object due to the limitation of your authorities"
+    }
   }
 }

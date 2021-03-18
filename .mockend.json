@@ -1,0 +1,12 @@
+{
+  "User": {
+    "id": int,
+    "name": "string",
+    "email": "string",
+    "createdAt": "date"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
+}
